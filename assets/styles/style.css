@@ -13,16 +13,29 @@ body{
     /* border: 1px solid #444472; */
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+
+
 /* Header */
 header{
+    position: fixed;
     width: 100%;
     top: 0;
     left: 0;
     height: 80px;
+    background-color: #b4ab97cc; 
+    backdrop-filter: blur(10px); 
     line-height: 80px;
     z-index: 1000;
-    margin-bottom: 20px;
 }
+
+header h1{
+    margin-bottom: 0;
+}
+
 
 .flex, .navContainer, nav, .hero-content,.hero-content-details, 
 .hero-content-image, .details3, .details3 a, .about-content, .aboutText, .project-content, .block{
@@ -84,6 +97,7 @@ nav a{
     overflow: scroll;
     object-fit: contain;
     opacity: 1;
+    margin-top: 100px;
     margin-bottom: 50px;
     align-items: center;
     text-align: center;
@@ -166,6 +180,7 @@ nav a{
     justify-content: center;
     line-height: 60px;
     gap: 15px;
+    margin-bottom: 20px;
 }
 
 .details3, .details3 a{
