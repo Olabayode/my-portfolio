@@ -21,7 +21,7 @@
                         <a href="">About</a>
                         <a href="">Projects</a>
                     </nav>
-                    <h2><a class="contact" href="">Contact</a></h2>
+                    <h2><a class="contact-btn" href="">Contact</a></h2>
                 </div>
             </div>
         </header> 
@@ -125,9 +125,68 @@
                 </div>
             </section>
             <section class="projects">
-                
+                <h1>MY PROJECTS💡</h1>
+                <div class="project-content">
+                    <div class="block">
+                        <img src="./assets/media/gitFinder.png" alt="home page of house app">
+                        <h3>GitHub Finder</h3>
+                        <p>Web application built with React.js which consumes GitHub API used to assess profiles of GitHub users with important details and direct link to their GitHub page</p>
+                        <a href="https://github.com/Olabayode/GitHub-Finder-App.git" target="_blank">Link to GitHub Repo</a>
+                    </div>
+                    <div class="block">
+                        <img src="./assets/media/houseApp.png" alt="home page of house app">
+                        <h3>House MarketPlace</h3>
+                        <p>Web application built with React.js and Firebase, This is a scalable web application for selling, buying and renting houses</p>
+                        <a href="https://github.com/Olabayode/House-Marketplace-Prjct.git" target="_blank">Link to GitHub Repo</a>
+                    </div>
+                    <div class="block">
+                        <img src="./assets/media/shapeFactory.png" alt="shape factory page">
+                        <h3>Shape Factory</h3>
+                        <p>An App that inputs boxes into a big grid using HTML, CSS and JavaScript for responsiveness</p>
+                        <a href="https://github.com/Olabayode/shape-factory.git" target="_blank">Link to GitHub Repo</a>
+                    </div>
+                </div>
+            </section>
+            <p class="contact-head">Feel free to explore my portfolio to see my projects and reach out if you'd like to collaborate!</p>
+            <section class="contact" id="contact">
+                <h1>CONTACT ME📞</h1>
+                <p>Fill the form below and it'll be sent directly to my mail, Thank You.</p>
+                <form class="contact-form" method="post" action="#">
+                    <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
             </section>
         </main>
-        <footer></footer>
+        <footer class="site-footer">
+            <div class="footer-left">
+                <p>made by Emmanuel</p>
+            </div>
+            <div class="footer-center">
+                <nav class="footer-nav">
+                <a href="#about">About</a>
+                <a href="#portfolio">Portfolio</a>
+                <a href="#contact">Contact</a>
+                </nav>
+            </div>
+            <div class="footer-right">
+                <div class="social-links">
+                <a href="https://github.com/Olabayode" target="_blank" aria-label="GitHub">🐱</a>
+                <a href="https://www.linkedin.com/in/emmanuel-olabayode-b600272a8" target="_blank" aria-label="LinkedIn">💼</a>
+                </div>
+                <p>© 2025 Emmanuel</p>
+            </div>
+        </footer>
+
     </body>
 </html>
