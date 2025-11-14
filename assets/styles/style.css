@@ -25,7 +25,7 @@ header{
 }
 
 .flex, .navContainer, nav, .hero-content,.hero-content-details, 
-.hero-content-image, .details3, .details3 a{
+.hero-content-image, .details3, .details3 a, .about-content, .aboutText{
     display: flex;
 }
 
@@ -34,6 +34,7 @@ header{
 }
 
 h1{
+    font-size: 50px;
     letter-spacing: 3px;
     color: #474448;
 }
@@ -217,7 +218,7 @@ nav a{
     background-color: #000;
 }
 
-.skills {
+.skills, .about {
     margin-bottom: 40px;
 }
 
@@ -278,6 +279,58 @@ nav a{
     color: #555;
     line-height: 1.4;
 }
+
+.about h1 {
+  margin-left: auto; 
+  text-align: right;
+}
+
+.about-content{
+    flex-direction: row;
+}
+
+.aboutImg{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    left: 0;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 50%;
+    border: 0.5px solid #F8FFE5;
+    border-radius: 50%;
+}
+
+.aboutImg img{
+    width: 450px;
+    height: 450px;
+    object-fit: contain;
+    border-radius: 50%;
+    transition: all 1s ease-in-out;
+}
+
+.aboutImg img:hover{
+    box-shadow: 0 15px 35px #2274A5
+}
+
+.aboutText{
+    width: 50%;
+    margin-left: auto;
+    border: 1px solid #F8FFE5;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 20px;
+    gap: 20px;
+    flex-direction: column;
+
+}
+
+.aboutText p {
+    font-size: 25px;
+    font-weight: 500;
+    
+}
+
 
 
 
