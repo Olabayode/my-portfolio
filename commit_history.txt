@@ -1,0 +1,17 @@
+* commit 381ab2355cfda5c953ed3a27adfe5e5aaf652eec (HEAD -> main, origin/main, origin/HEAD)
+| Author: Emmanuel Olure <emmanuelolabayode@gmail.com>
+| Date:   Thu Nov 13 01:37:31 2025 -0600
+| 
+|     hero banner
+| 
+* commit 7726bc3b3eb7177f3d8afe677771cedd23a9dd24
+| Author: Emmanuel Olure <emmanuelolabayode@gmail.com>
+| Date:   Wed Nov 12 19:51:01 2025 -0600
+| 
+|     header first look
+| 
+* commit e333da4ab1d5f8286c483ee4047b338b31df88ab
+  Author: Emmanuel Olure <emmanuelolabayode@gmail.com>
+  Date:   Wed Nov 12 16:26:01 2025 -0600
+  
+      html setup
